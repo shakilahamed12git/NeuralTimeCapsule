@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Neural Time Capsules – AI-Powered Memory Reconstruction
 
 Neural Time Capsules is a full-stack platform designed to help Alzheimer’s and dementia patients recall personal memories. By weaving together photos, voice recordings, and text notes, the system uses simulated AI logic to reconstruct "Memory Capsules"—immersive sensory experiences that foster emotional connection and cognitive stimulation.
@@ -52,3 +53,6 @@ In this prototype, the AI logic identifies semantic links between memory descrip
 
 ---
 *Developed for Social Impact & Healthcare Innovation Hackathon.*
+=======
+# NeuralTimeCapsule
+>>>>>>> 3488d7a74c914a1ec268e371052022112bed1160

@@ -177,7 +177,7 @@ const Dashboard = () => {
                         </div>
                     )}
                 </div>
-            )
+            )}
 
             {/* Add Patient Modal */}
             <AnimatePresence>

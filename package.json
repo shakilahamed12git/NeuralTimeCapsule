@@ -1,0 +1,18 @@
+{
+  "name": "hackathon-project-techphantoms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd server && node index.js\" \"cd client && npm run dev\" \"cd flask_server && python app.py\"",
+    "install-all": "npm install && cd server && npm install && cd client && npm install && cd flask_server && pip install -r requirements.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

@@ -1,0 +1,9 @@
+@echo off
+echo Installing Python dependencies...
+cd flask_server
+pip install -r requirements.txt
+echo Initializing Database...
+python init_db.py
+echo Starting Flask Server...
+python app.py
+pause

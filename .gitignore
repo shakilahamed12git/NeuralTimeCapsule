@@ -1,0 +1,6 @@
+.venv/
+node_modules/
+mongodb_data/
+.vscode/
+__pycache__/
+.env

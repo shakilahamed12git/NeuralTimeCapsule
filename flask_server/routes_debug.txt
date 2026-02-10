@@ -1,0 +1,12 @@
+static: /static/<path:filename>
+home: /
+ai_chat: /api/ai/chat
+get_research: /api/research/alzheimers
+add_patient: /api/patients
+get_patients: /api/patients
+get_medicines: /api/medicines
+add_medicine: /api/medicines
+add_treatment: /api/treatments
+get_patient_treatments: /api/treatments/patient/<int:patient_id>
+analyze_progression: /neural-analysis
+get_recommendations_api: /api/recommendations/<string:stage>
